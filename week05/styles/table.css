@@ -1,0 +1,22 @@
+/* Style the main table borders */
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    letter-spacing: 1px;
+}
+
+/* Style all table cells (header and data) */
+th,
+td {
+    border: 1px solid rgb(150 150 150);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+/* Style top header and bottom footer with a dark background */
+thead tr,
+tfoot tr {
+    background-color: rgb(0 0 0);
+    color: white;
+    font-weight: 700;
+}
