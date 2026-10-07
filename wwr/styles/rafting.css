@@ -59,10 +59,13 @@ header img {
 }
 
 /* W04 Step 5: Navigation Flexbox Layout */
-header nav {
+header,
+nav,
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    list-style: none;
 }
 
 header nav a {
