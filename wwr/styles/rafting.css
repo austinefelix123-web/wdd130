@@ -1,19 +1,12 @@
 :root {
     --primary-color: #055a05;
     /* Forest Green */
-    --secondary-color: #f4a261;
-    /* warm Sand */
     --accent1-color: #264653;
     /* Dark Slate Blue */
     --accent2-color: #e9c46a;
     /* Light Golden Yellow */
     --heading-font: "Time New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
-}
-
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
 }
 
 /* Reset Box Model */
@@ -59,9 +52,8 @@ header img {
 }
 
 /* W04 Step 5: Navigation Flexbox Layout */
-header,
 nav,
-nav {
+nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
